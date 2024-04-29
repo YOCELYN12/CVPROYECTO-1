@@ -1,0 +1,132 @@
+circle{
+    stroke: gray;
+    stroke-width: 10;
+    stroke-dasharray: var(--percentaje) 100;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    fill: darkgray;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadro{
+    margin: auto;
+    margin-top: 25px;
+    width: 78%;
+    height: 200vh;
+    border-style: groove;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+.img{
+    width: 20px;
+    height:20px;
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+   }
+   
+
+.contenedor-exp{
+   display: flex;
+   flex-direction: column;
+  
+ 
+}
+
+
+.contenedor-img{
+    position: absolute;
+    top: 570px;
+    left: 760px;
+}
+
+
+
+.miFoto{
+    width: 500px;
+    height:500px;
+    float: right;
+}
+
+
+.personalskills{
+    font-size: 20px;
+}
+
+
+.job{
+    font-size: 28px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.conte-pasan{
+    position: absolute;
+    top:  620px ;
+    left: 170px;
+}
+
+
+
+.conte-tele{
+    position: absolute;
+    top:  810px ;
+    left: 170px;
+}
+
+
+.hobbies{
+    width: 50px;
+    height: 50px;
+}
+
+.conte-educacion{
+    position: absolute;
+    top: 1200px;
+}
+
+.hoby{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    position: absolute;
+    top: 1200px;
+    left: 800px;
+
+       
+   
+}
+.todos-hobbies{
+    position: absolute;
+    right:400px;
+    bottom: -600px;
+    justify-content: space-around;
+}
+
+.HOBBYS{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 1300px;
+    left: 800px;
+    
+}
